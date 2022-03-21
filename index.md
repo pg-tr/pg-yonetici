@@ -4,8 +4,11 @@ title: Ana Sayfa
 nav_order: 0
 ---
 
-## İçerik 
+## PostgreSQL Yönetici Dokümantasyonu
 
+{% include image.html file="postgres_giris.png" url="/pg-yonetici/images/postgres_giris.png" alt="postgres giriş"%}
+
+* [PostgreSQL Nedir?](docs/00-postgresql-nedir/)
 * [Veritabanı Kurulumu](docs/01-veritabani-kurulumu/)
 * [Veritabanı Yapılandırması](docs/02-veritabani-yapilandirmasi/)
 * [PostgreSQL Nasıl Çalışır?](docs/03-postgresql-nasil-calisir)
