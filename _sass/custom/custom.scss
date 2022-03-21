@@ -234,14 +234,13 @@ ul#results-container a:hover {
   color: black;
 }
 #search-input {
-  padding: 0.5em;
-  margin-left: 20px;
-  width: 20em;
-  font-size: 0.8em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 10px;
+}
+
+.search-label {
+  padding-left: 10px;
 }
 /* end search */
 
@@ -1106,6 +1105,10 @@ span.label.label-unit {
   background-color: whitesmoke;
   font-weight: bold;
   color: black;
+}
+
+a {
+  color: #306790;
 }
 
 a code {
