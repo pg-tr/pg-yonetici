@@ -1,11 +1,8 @@
 ---
 title: "İstemci Bağlantısı Varsayılanları"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: December 21, 2020
-sidebar: mydoc_sidebar
-permalink: mydoc_istemci_baglantisi_varsayilanlari.html
-folder: mydoc
+layout: default
+parent: Veritabanı İstemcileri
+nav_order: 1
 ---
 
 ## İstemci Bağlantısı Varsayılanları

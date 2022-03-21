@@ -1,11 +1,8 @@
 ---
 title: "Veritabanı Servisinde İyileştirme"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: November 13, 2020
-sidebar: mydoc_sidebar
-permalink: mydoc_servis_iyilestirme.html
-folder: mydoc
+parent: Performans
+layout: default
+nav_order: 1
 ---
 
 ## Veritabanı Servisinde İyileştirme

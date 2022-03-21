@@ -1,12 +1,10 @@
 ---
 title: "Streaming Replikasyon"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: December 31, 2020
-sidebar: mydoc_sidebar
-permalink: mydoc_streaming_replication.html
-folder: mydoc
+parent: Yüksek Erişilebilirlik
+layout: default
+nav_order: 3
 ---
+
 
 ## PostgreSQL Replikasyon Giriş
 

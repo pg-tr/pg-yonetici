@@ -1,11 +1,8 @@
 ---
 title: "PostgreSQL Yedekleme ve PITR Kavramı"
-tags: [PostgreSQL]
-keywords: postgres, backup, PITR, pg_dump, pg_dumpall, pg_restore, pgbackrest
-last_updated: December 24, 2020
-sidebar: mydoc_sidebar
-permalink: mydoc_postgresql_yedekleme.html
-folder: mydoc
+parent: Yedekleme ve Güncelleme
+layout: default
+nav_order: 5
 ---
 
 ## Yedekleme ve PITR kavramı

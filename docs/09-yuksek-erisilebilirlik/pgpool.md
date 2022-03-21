@@ -1,12 +1,10 @@
 ---
 title: "PgPool-II"
-tags: [PostgreSQL]
-keywords: postgres, pgpool, connection pooling
-last_updated: December 24, 2020
-sidebar: mydoc_sidebar
-permalink: mydoc_pgpool.html
-folder: mydoc
+parent: Yüksek Erişilebilirlik
+layout: default
+nav_order: 1
 ---
+
 
 ## PgPool - II
 

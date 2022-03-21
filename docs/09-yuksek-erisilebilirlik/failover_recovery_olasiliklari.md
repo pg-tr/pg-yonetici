@@ -1,11 +1,8 @@
 ---
 title: "Failover ve Recovery Olasılıkları"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: January 7, 2021
-sidebar: mydoc_sidebar
-permalink: mydoc_failover_recovery_olasiliklari.html
-folder: mydoc
+parent: Yüksek Erişilebilirlik
+layout: default
+nav_order: 2
 ---
 
 ## Failover ve Recovery Olasılıkları

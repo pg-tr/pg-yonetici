@@ -1,12 +1,10 @@
 ---
 title: "pgBouncer"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: December 24, 2020
-sidebar: mydoc_sidebar
-permalink: mydoc_pgbouncer.html
-folder: mydoc
+parent: Yüksek Erişilebilirlik
+layout: default
+nav_order: 1
 ---
+
 
 
 ## PgBouncer

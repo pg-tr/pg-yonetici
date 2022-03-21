@@ -1,12 +1,8 @@
 ---
 title: "PostgreSQL Yüksek Erişilebilirlik ve Ölçekleme"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: November 16, 2020
-summary: "Yüksek Erişilebilirlik ve Ölçekleme"
-sidebar: mydoc_sidebar
-permalink: mydoc_yuksek_erisilebilik_olcekleme.html
-folder: mydoc
+parent: Yüksek Erişilebilirlik
+layout: default
+nav_order: 1
 ---
 
 ## Yüksek Erişilebilirlik ve Ölçeklemeye Giriş

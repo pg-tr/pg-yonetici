@@ -1,12 +1,8 @@
 ---
 title: "Donanım Performansı"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: November 16, 2020
-summary: "Donanım Performansı"
-sidebar: mydoc_sidebar
-permalink: mydoc_donanim_performansi.html
-folder: mydoc
+parent: Performans
+layout: default
+nav_order: 5
 ---
 
 ## Donanım Performansı

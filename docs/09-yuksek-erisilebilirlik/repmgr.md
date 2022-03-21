@@ -1,11 +1,8 @@
 ---
 title: "repmgr"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: November 19, 2020
-sidebar: mydoc_sidebar
-permalink: mydoc_repmgr.html
-folder: mydoc
+parent: Yüksek Erişilebilirlik
+layout: default
+nav_order: 1
 ---
 
 ## repmgr

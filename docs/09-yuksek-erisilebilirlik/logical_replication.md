@@ -1,12 +1,8 @@
 ---
 title: "Logical Replication"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: November 19, 2020
-summary: "Logical Replication"
-sidebar: mydoc_sidebar
-permalink: mydoc_logical_replication.html
-folder: mydoc
+parent: Yüksek Erişilebilirlik
+layout: default
+nav_order: 4
 ---
 
 ## Logical Replication

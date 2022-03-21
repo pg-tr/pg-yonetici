@@ -1,11 +1,8 @@
 ---
 title: "PostgreSQL Veritabanı Kümesini Yükseltme"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: December 24, 2020
-sidebar: mydoc_sidebar
-permalink: mydoc_vt_kumesi_yukseltme.html
-folder: mydoc
+parent: Yedekleme ve Güncelleme
+layout: default
+nav_order: 5
 ---
 
 ## PostgreSQL Veritabanı Kümesini Yükseltme

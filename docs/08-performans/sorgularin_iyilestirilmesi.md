@@ -1,12 +1,8 @@
 ---
 title: "Sorguların İyileştirilmesi"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: November 13, 2020
-summary: "Sorguların İyileştirilmesi"
-sidebar: mydoc_sidebar
-permalink: mydoc_sorgularin_iyilestirilmesi.html
-folder: mydoc
+pparent: Performans
+layout: default
+nav_order: 5
 ---
 
 ## Sorguların İyileştirilmesi

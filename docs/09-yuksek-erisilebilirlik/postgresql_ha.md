@@ -1,10 +1,8 @@
 ---
 title: "PostgreSQL Otomatik Failover Çözümleri"
-keywords: postgresql
-last_updated: January 4, 2021
-sidebar: mydoc_sidebar
-permalink: mydoc_postgresql_ha.html
-folder: mydoc
+parent: Yüksek Erişilebilirlik
+layout: default
+nav_order: 1
 ---
 
 ## PostgreSQL Otomatik Failover Çözümleri

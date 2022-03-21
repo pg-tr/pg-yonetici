@@ -1,13 +1,10 @@
 ---
 title: "Barman"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: November 19, 2020
-summary: "Barman"
-sidebar: mydoc_sidebar
-permalink: mydoc_barman.html
-folder: mydoc
+parent: Yüksek Erişilebilirlik
+layout: default
+nav_order: 1
 ---
+
 
 ## Barman
 

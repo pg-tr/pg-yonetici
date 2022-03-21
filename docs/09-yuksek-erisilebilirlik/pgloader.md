@@ -1,11 +1,8 @@
 ---
 title: "pgLoader"
-tags: [PostgreSQL]
-keywords: PostgreSQL
-last_updated: January 11, 2021
-sidebar: mydoc_sidebar
-permalink: mydoc_pgloader.html
-folder: mydoc
+parent: Yüksek Erişilebilirlik
+layout: default
+nav_order: 5
 ---
 
 ## pgLoader

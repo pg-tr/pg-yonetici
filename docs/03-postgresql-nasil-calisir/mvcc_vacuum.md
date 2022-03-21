@@ -1,12 +1,8 @@
 ---
-title: "PostgreSQL MVCC ve VACUUM"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: November 13, 2020
-summary: "PostgreSQL MVCC ve VACUUM"
-sidebar: mydoc_sidebar
-permalink: mydoc_mvcc_vacuum.html
-folder: mydoc
+title: "MVCC ve VACUUM"
+layout: default
+parent: PostgreSQL Nasıl Çalışır?
+nav_order: 5
 ---
 
 ## PostgreSQL MVCC ve VACUUM

@@ -1,11 +1,8 @@
 ---
-title: "Sorguların İyileştirilmesi"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: December 21, 2020
-sidebar: mydoc_sidebar
-permalink: mydoc_isletim_sistemi_ayarlari.html
-folder: mydoc
+title: "İşletim Sistemi Ayarları"
+parent: Performans
+layout: default
+nav_order: 5
 ---
 
 ## İşletim Sistemi Ayarları

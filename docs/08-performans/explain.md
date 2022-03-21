@@ -1,12 +1,8 @@
 ---
 title: "EXPLAIN ve Log Analizi"
-tags: [PostgreSQL]
-keywords: postgres
-last_updated: November 16, 2020
-summary: "EXPLAIN ve Log Analizi"
-sidebar: mydoc_sidebar
-permalink: mydoc_explain.html
-folder: mydoc
+parent: Performans
+layout: default
+nav_order: 5
 ---
 
 ## EXPLAIN
