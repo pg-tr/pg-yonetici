@@ -16,7 +16,7 @@
 title: PostgreSQL Veritabanı Yönetici Dokümantasyonu
 description: PostgreSQL Veritabanı Yönetici Dokümantasyonu
 baseurl: "/pg-yonetici" # the subpath of your site, e.g. /blog
-url: "https://tubitak-bilgem-yte.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://pg-tr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 toctitle: "İçindekiler"
 company_name: "TÜBİTAK BİLGEM YTE"
 
