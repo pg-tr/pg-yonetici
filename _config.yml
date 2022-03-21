@@ -20,7 +20,7 @@ url: "https://tubitak-bilgem-yte.github.io" # the base hostname & protocol for y
 toctitle: "İçindekiler"
 company_name: "TÜBİTAK BİLGEM YTE"
 
-theme: just-the-docs
+#theme: just-the-docs
 remote_theme: pmarsceill/just-the-docs
 
 highlighter: rouge
