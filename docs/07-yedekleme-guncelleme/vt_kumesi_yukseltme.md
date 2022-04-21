@@ -27,6 +27,16 @@ Tamamen geçiş yapmadan önce istemci uygulamalarını yeni sürümde test etme
 
 {% include callout.html content=" **`Server C-language API`** : Backend işlevi API'sindeki değişiklikleri içerir. Bu değişiklikler backend işlevlerine başvuran kodu etkiler." type="primary" %}
 
+
+### Minör Sürüm Yükseltme
+
+Sadece çalışabilir dosyalar değişir ve PostgreSQL yeniden başlatılır. Paket yönetim sistemi ile:
+
+```shell
+yum update postgresql11*
+systemctl restart postgresql-11
+```
+
 ### pg_dumpall Yaklaşımı ile Yükseltme
 
 Yükseltme yöntemlerinden biri, PostgreSQL ana sürümünde verilerin dump'ını alıp başka sürümde yeniden yüklemektir. Bu işlem için [`pg_dumpall`](mydoc_postgresql_yedekleme.html#pg_dumpall) logical yedekleme aracı kullanılır. PostgreSQL'in uyumsuz bir sürümüne sahip bir veri dizinini kullanmanızı engelleyen kontroller vardır. Bu nedenle bir veri dizininde yanlış sunucu sürümünü başlatmaya çalışmak büyük bir zarara sebep olmaz.
@@ -87,26 +97,10 @@ Hem eski hem de yeni sunucular farklı bağlantı noktalarında paralel olarak �
 pg_dumpall -p 5432 | psql -d postgres -p 5433
 ```
 
-### pg_upgrade Yaklaşımı ile Yükseltme
+### pg_upgrade Yaklaşımı ile Majör Sürüm Yükseltme
 
 `pg_upgrade` modülü, bir kurulumun ana PostgreSQL sürümünden diğerine yerinde geçişi için kullanılır. Yükseltmeler özellikle `--link` modunda dakikalar içinde gerçekleştirilir. Bu yöntem de sunucuyu başlatma / durdurma, initdb'yi çalıştırma gibi yukarıda bahsettiğimiz pg_dumpall'a benzer adımlar gerektirir. [pg_upgrade](https://www.postgresql.org/docs/current/pgupgrade.html) dokümantasyonunda gerekli adımlar özetlenmiştir.
 
-### Replikasyon Yaklaşımı ile Yükseltme
-
-Güncellenmiş PostgreSQL sürümünden, logical replikasyon yöntemi ile bir standby sunucu oluşturulabilir. Logical replikasyon, PostgreSQL'in farklı major sürümleri arasında replikasyonu destekler. Standby aynı bilgisayarda veya farklı bir bilgisayarda olabilir. Primary sunucu ile senkronize olduktan sonra (PostgreSQL'in eski sürümünü çalıştıran) ana sunucular değiştirilerek standby ana sunucu yapılabilir ve alt sürümdeki veritabanı kapatılabilir. Böyle bir değişim, yükseltme işleminin birkaç saniyelik kesinti süresinde başarılı şekilde tamamlanmasını sağlar.
-
-{% include tip.html content=" Bu yükseltme yaklaşımı yerleşik logical replikasyon olanaklarının yanı sıra pglogical, Slony, Londiste ve Bucardo gibi harici logical replikasyon araçları kullanılarak da gerçekleştirilebilir."%}
-
-### Minör Sürüm Yükseltme
-
-Sadece çalışabilir dosyalar değişir ve PostgreSQL yeniden başlatılır. Paket yönetim sistemi ile:
-
-```shell
-yum update postgresql11*
-systemctl restart postgresql-11
-```
-
-### Majör Sürüm Yükseltme
 
 ```shell
 yum install https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
@@ -162,6 +156,13 @@ Eski veri dizini ve eski PostgreSQL paketleri kaldırılabilir (ya da yedek olar
 rm -rf /var/lib/pgsql/11/data/*
 yum remove postgresql11-server postgresql11 postgresql11-contrib
 ```
+
+### Logical Replication Yaklaşımı ile Yükseltme
+
+Güncellenmiş PostgreSQL sürümünden, logical replikasyon yöntemi ile bir standby sunucu oluşturulur. Logical replication, PostgreSQL'in farklı major sürümleri arasında replikasyonu destekler. Replika(yeni sürüm), Primary(eski sürüm) sunucu ile senkronize olduktan sonra primary replika yer değiştirilir ve Replika yeni primary yapılır ve eski primary kapatılır. Bu yöntem, yükseltme işleminin birkaç saniyelik kesinti ile gerçekleştirilmesini sağlar.
+
+{% include tip.html content=" Bu yükseltme yaklaşımı yerleşik logical replikasyon olanaklarının yanı sıra pglogical, Slony, Londiste ve Bucardo gibi harici logical replikasyon araçları kullanılarak da gerçekleştirilebilir."%}
+
 
 **Kaynak:**
 
